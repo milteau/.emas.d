@@ -127,5 +127,22 @@
   :ensure t)
 ;; emacs --debug-init
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(nano-dark))
+ '(custom-safe-themes
+   '("98fada4d13bcf1ff3a50fceb3ab1fea8619564bb01a8f744e5d22e8210bfff7b" "db5b906ccc66db25ccd23fc531a213a1afb500d717125d526d8ff67df768f2fc" default))
+ '(org-agenda-files nil nil nil "Customized with use-package org-agenda")
+ '(package-selected-packages
+   '(org-roam nano-theme consult embark wgrep vertico use-package shackle restart-emacs pyim orderless marginalia keycast embark-consult doom-themes doom-modeline dashboard company all-the-icons)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
 
 
